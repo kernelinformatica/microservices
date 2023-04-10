@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.core_KernelCoreManager_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.core.entities.DbConfigs</class>
+    <class>com.core.entities.Clients</class>
+    <class>com.core.entities.Users</class>
+    <class>com.core.entities.Language</class>
+    <class>com.core.entities.ClientsSubCategories</class>
+    <class>com.core.entities.Companys</class>
+    <class>com.core.entities.SisStatus</class>
+    <class>com.core.entities.Geocountry</class>
+    <class>com.core.entities.UsersChangePasswords</class>
+    <class>com.core.entities.SisModuleRelClient</class>
+    <class>com.core.entities.UsersGroupsPermissions</class>
+    <class>com.core.entities.Geostates</class>
+    <class>com.core.entities.UsersGroups</class>
+    <class>com.core.entities.UsersRelPermissions</class>
+    <class>com.core.entities.Platforms</class>
+    <class>com.core.entities.UsersDetails</class>
+    <class>com.core.entities.ClientsCategories</class>
+    <class>com.core.entities.ClientDetails</class>
+    <class>com.core.entities.UsersTokens</class>
+    <class>com.core.entities.UsersPermissions</class>
+    <class>com.core.entities.SisModules</class>
+    <class>com.core.entities.Lenguages</class>
+    <class>com.core.entities.Geocitys</class>
+    <class>com.core.entities.Languages</class>
+    <class>com.core.entities.Clients_1</class>
+    <class>com.core.entities.SisModules_1</class>
+    <class>com.core.entities.SisStatus_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.0.0.33:3306/KernelCore"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="org.gjt.mm.mysql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
